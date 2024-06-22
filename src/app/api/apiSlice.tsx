@@ -6,7 +6,7 @@ let apiUrl;
 if (import.meta.env.MODE === 'development') {
   apiUrl = 'http://localhost:3000';
 } else {
-  apiUrl = 'https://comfortable-wasp-neckerchief.cyclic.app';
+  apiUrl = 'https://wickerland-backend.onrender.com';
 }
 
 const baseQuery = fetchBaseQuery({
