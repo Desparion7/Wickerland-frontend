@@ -1,8 +1,13 @@
 .spinner_box {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	min-height: 83vh;
+}
+.spinner_box_text{
+margin-bottom: 2rem;
+font-size: 1.5rem;
 }
 .lds_ring {
 	display: inline-block;

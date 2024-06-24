@@ -4,7 +4,7 @@ import type { StoreState } from '../store';
 let apiUrl;
 
 if (import.meta.env.MODE === 'development') {
-  apiUrl = 'http://localhost:3000';
+  apiUrl = 'https://wickerland-backend.onrender.com';
 } else {
   apiUrl = 'https://wickerland-backend.onrender.com';
 }
